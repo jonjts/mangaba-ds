@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    distDir: 'storybook-static',
+};
 
 export default nextConfig;
